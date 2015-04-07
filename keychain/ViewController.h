@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *shouPasswordLabel;
+
+@property (weak, nonatomic) IBOutlet UITextField *inputPasswordTextField;
+
+@property (weak, nonatomic) IBOutlet UIButton *showPasswordButton;
 
 @end
 

@@ -14,6 +14,8 @@
 		2ED78E111AD375DA00A44D5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED78E101AD375DA00A44D5C /* Images.xcassets */; };
 		2ED78E141AD375DA00A44D5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ED78E121AD375DA00A44D5C /* LaunchScreen.xib */; };
 		2ED78E201AD375DA00A44D5C /* keychainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED78E1F1AD375DA00A44D5C /* keychainTests.m */; };
+		2ED78E2B1AD37BED00A44D5C /* KeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED78E2A1AD37BED00A44D5C /* KeyChain.m */; };
+		2ED78E2E1AD3821200A44D5C /* UserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ED78E2D1AD3821200A44D5C /* UserDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		2ED78E191AD375DA00A44D5C /* keychainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keychainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED78E1E1AD375DA00A44D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ED78E1F1AD375DA00A44D5C /* keychainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keychainTests.m; sourceTree = "<group>"; };
+		2ED78E291AD37BED00A44D5C /* KeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyChain.h; sourceTree = "<group>"; };
+		2ED78E2A1AD37BED00A44D5C /* KeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyChain.m; sourceTree = "<group>"; };
+		2ED78E2C1AD3821200A44D5C /* UserDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDataManager.h; sourceTree = "<group>"; };
+		2ED78E2D1AD3821200A44D5C /* UserDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				2ED78E101AD375DA00A44D5C /* Images.xcassets */,
 				2ED78E121AD375DA00A44D5C /* LaunchScreen.xib */,
 				2ED78E031AD375DA00A44D5C /* Supporting Files */,
+				2ED78E291AD37BED00A44D5C /* KeyChain.h */,
+				2ED78E2A1AD37BED00A44D5C /* KeyChain.m */,
+				2ED78E2C1AD3821200A44D5C /* UserDataManager.h */,
+				2ED78E2D1AD3821200A44D5C /* UserDataManager.m */,
 			);
 			path = keychain;
 			sourceTree = "<group>";
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ED78E0C1AD375DA00A44D5C /* ViewController.m in Sources */,
+				2ED78E2E1AD3821200A44D5C /* UserDataManager.m in Sources */,
+				2ED78E2B1AD37BED00A44D5C /* KeyChain.m in Sources */,
 				2ED78E091AD375DA00A44D5C /* AppDelegate.m in Sources */,
 				2ED78E061AD375DA00A44D5C /* main.m in Sources */,
 			);
